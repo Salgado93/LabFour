@@ -51,6 +51,12 @@ int main(int argc,char* argv[]){
 					cout << "Binario: " << convertirDecimal(decimal) << endl;
 				}
 				if(op == 3){
+					int bin1;
+					int bin2;
+					cout << "Ingrese 1 Binario" << endl;
+					cin >> bin1;
+					cout << "Ingrese 2 Binario" << endl;
+					cin >> bin2;
 
 				}
 			}
