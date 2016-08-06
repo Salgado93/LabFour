@@ -51,12 +51,15 @@ int main(int argc,char* argv[]){
 					cout << "Binario: " << convertirDecimal(decimal) << endl;
 				}
 				if(op == 3){
-					int bin1;
-					int bin2;
+					int bin1=0;
+					int bin2=0;
+					int suma=0;
 					cout << "Ingrese 1 Binario" << endl;
 					cin >> bin1;
 					cout << "Ingrese 2 Binario" << endl;
 					cin >> bin2;
+					suma = convertirBinario(bin1) + convertirBinario(bin2);
+					cout << "La Suma Es: " << convertirDecimal(suma) << endl;
 
 				}
 			}
