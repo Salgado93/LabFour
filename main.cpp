@@ -22,12 +22,22 @@ int main(int argc,char* argv[]){
 			const int columnas=10;
 			const int lineas=10;
 			char tablero[10][10];
-			
+			int turnos = 20;
 			llenarMatriz(tablero,lineas,columnas);
         		imprimirMatriz(tablero,lineas,columnas);
 			cout << endl;		
         		llenarLaberinto(tablero,lineas,columnas);
-			
+			imprimirMatriz(tablero,lineas,columnas);
+			while(turnos != 0){
+				char op;
+				imprimirMatriz(tablero,lineas,columnas);
+				cout << endl;
+				cout << "Ingrese Movimiento: " << endl;
+				cout << "W. Adelante" << endl;
+				cout << "A. Izquierda" << endl;
+				cout << "D. Derecha" << endl;
+				cin >> op;
+			}	
 			
 		}
 		if(opcion == 2){
